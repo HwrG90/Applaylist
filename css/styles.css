@@ -11783,8 +11783,31 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #ced4da;
 }
 
+
 .footer {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.bSubir {
+  height: 50px;
+  width: 35px;
+  position: fixed;
+  bottom: 70px;
+  right: 40px;
+  font-size: 10px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.imgBSubir {
+  height: 35px;
+  width: 35px;
+}
+
+.bSubir>a>img:hover {
+  transition: all 300ms;
+  transform: scale(1.2);
 }

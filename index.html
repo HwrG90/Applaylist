@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -16,33 +15,35 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
-
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top"><img  src="assets/img/ApplayList.png" alt="..." /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars ms-1"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">Quienes somos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-                </ul>
-            </div>
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Quienes somos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
         </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading">Applaylist Music</div>
+    </div>
+</nav>
+
+<!-- Masthead-->
+<section class="btn Up" id="topPage"></section>
+<header class="masthead">
+    <div class="container">
+        <div class="masthead-subheading">Applaylist Music</div>
             <div class="masthead-subheadingB">"El mundo merece escucharte"</div>
             <div class="masthead-heading text-uppercase"></div>
             <a class="btn btn-primary btn-xl text-uppercase" href="#services">Saber Mas</a>
@@ -439,6 +440,14 @@
                 </div>
             </div>
         </div>
+
+        <!-- Boton para subir con construccion  -->
+
+         <div class="bSubir" data-aos="fade-up">
+            <a href="#topPage">
+                <img class="imgBSubir" src="../Applaylist/assets/img/btn/bSubir.png" />
+            </a>
+        </div> 
     </footer>
     <!-- Portfolio Modals-->
     <!-- Portfolio item 1 modal popup-->
@@ -452,7 +461,7 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2>Reggeaton Mix 2022</h2>
+                                <h2 class="text-uppercase">Reggeaton Mix 2022</h2>
                                 <p class="item-intro text-muted">+25k Followers</p>
                                 <img class="img-fluid d-block mx-auto" src="./assets/img/portfolio/Reggeton mix1.jpg"
                                     alt="..." />
@@ -488,27 +497,22 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <h2 class="text-uppercase">Reggeaton lo mas nuevo 2022</h2>
+                                <p class="item-intro text-muted">+18k Followers</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Reggeton mix2.jpg" alt="..." />
+                                <p>Esta playlist cuenta con mas de 18k en seguidores y genera una media de 5.000 a 8.000 streams en 28 dias,en los primeros 6 puestos.</p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Explore
+                                        <strong>Precio: 6.5 USD / 1.000 ARS</strong>
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Graphic Design
+                                        <strong>Categoria: Reggeaton - Latin trap - Pop latino - Dance hall latino</strong>
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-times me-1"></i>
-                                    Close Project
+                                    cerrar
                                 </button>
                             </div>
                         </div>
@@ -528,27 +532,22 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <h2 class="text-uppercase">Reggeaton 2022</h2>
+                                <p class="item-intro text-muted">+5 Followers</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Reggeton mix3.jpg" alt="..." />
+                                <p>Esta playlist cuenta con mas de 5k en seguidores y genera una media de 1.000 a 3.000 streams en 28 dias,en los primeros 6 puestos.</p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Finish
+                                        <strong>Precio: 3.75 USD / 800 ARS</strong>
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Identity
+                                        <strong>Categoria: Reggeaton - Latin trap - Pop latino - Dance hall latino</strong>
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-times me-1"></i>
-                                    Close Project
+                                    cerrar
                                 </button>
                             </div>
                         </div>
@@ -682,6 +681,10 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
